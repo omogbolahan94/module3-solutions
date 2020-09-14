@@ -2,7 +2,7 @@ body {
     margin:0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 /*
 header h1 {
@@ -38,15 +38,15 @@ header h1 {
 @media (min-width: 992px){
     #column3 {
         width: 30%;
-        margin-left: 3.33%
+        margin-left: 4.5%
         }
     #column1{
         width: 30%;
-        margin-right: 3.33%
+        margin-right: 4.5%
     }
     #column2 {
         width: 30%;
-        margin: 0 2
+        /* margin: 0 1% */
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -63,9 +63,10 @@ header h1 {
     }
 } 
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
     #column1,  #column2, #column3 {
-        width: 98%;
-        margin-right: 0 auto
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
         }
-} */
+}
